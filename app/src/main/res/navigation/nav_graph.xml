@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/FirstFragment">
+
+    <!-- HOME / DASHBOARD (main destination) -->
+    <fragment
+        android:id="@+id/FirstFragment"
+        android:name="com.example.cyberaigudie.FirstFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_first">
+
+        <action
+            android:id="@+id/action_FirstFragment_to_messageCheckerFragment"
+            app:destination="@id/messageCheckerFragment" />
+        <action
+            android:id="@+id/action_FirstFragment_to_urlCheckerFragment"
+            app:destination="@id/urlCheckerFragment" />
+        <action
+            android:id="@+id/action_FirstFragment_to_chatFragment"
+            app:destination="@id/chatFragment" />
+        <action
+            android:id="@+id/action_FirstFragment_to_guideFragment"
+            app:destination="@id/guideFragment" />
+    </fragment>
+
+    <!-- MESSAGE CHECKER -->
+    <fragment
+        android:id="@+id/messageCheckerFragment"
+        android:name="com.example.cyberaigudie.MessageCheckerFragment"
+        android:label="@string/message_checker_title"
+        tools:layout="@layout/fragment_message_checker">
+
+        <action
+            android:id="@+id/action_messageCheckerFragment_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+    </fragment>
+
+    <!-- URL CHECKER -->
+    <fragment
+        android:id="@+id/urlCheckerFragment"
+        android:name="com.example.cyberaigudie.UrlCheckerFragment"
+        android:label="@string/url_checker_title"
+        tools:layout="@layout/fragment_url_checker">
+
+        <action
+            android:id="@+id/action_urlCheckerFragment_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+    </fragment>
+
+    <!-- AI CYBER CHAT -->
+    <fragment
+        android:id="@+id/chatFragment"
+        android:name="com.example.cyberaigudie.ChatFragment"
+        android:label="@string/chat_title"
+        tools:layout="@layout/fragment_chat" />
+
+    <!-- CYBER SAFETY GUIDE -->
+    <fragment
+        android:id="@+id/guideFragment"
+        android:name="com.example.cyberaigudie.GuideFragment"
+        android:label="@string/guide_title"
+        tools:layout="@layout/fragment_guide" />
+
+    <!-- RISK RESULT (shared by Message Checker and URL Checker) -->
+    <fragment
+        android:id="@+id/SecondFragment"
+        android:name="com.example.cyberaigudie.SecondFragment"
+        android:label="@string/risk_result_title"
+        tools:layout="@layout/fragment_second" />
+</navigation>

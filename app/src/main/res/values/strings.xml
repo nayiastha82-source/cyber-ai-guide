@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Cyber AI Guide</string>
+
+    <!-- ==================== HOME / DASHBOARD ==================== -->
+    <string name="home_subtitle">Your Smart Guide to Cyber Safety</string>
+    <string name="home_welcome">Welcome! Use this app to check suspicious messages and links, ask cyber safety questions, and learn how to stay safe online.</string>
+    <string name="feature_message_title">Message Checker</string>
+    <string name="feature_message_desc">Check suspicious SMS, WhatsApp messages, emails, etc.</string>
+    <string name="feature_url_title">URL Checker</string>
+    <string name="feature_url_desc">Check suspicious website links.</string>
+    <string name="feature_chat_title">AI Cyber Chat</string>
+    <string name="feature_chat_desc">Ask cybersecurity-related questions.</string>
+    <string name="feature_guide_title">Cyber Safety Guide</string>
+    <string name="feature_guide_desc">Learn important cybersecurity safety tips.</string>
+    <string name="stay_safe_title">Stay Safe — Quick Tips</string>
+    <string name="stay_safe_tip_1">Never share OTPs, PINs or passwords with anyone.</string>
+    <string name="stay_safe_tip_2">Banks never ask for your details over messages or calls.</string>
+    <string name="stay_safe_tip_3">Think before you click unknown links.</string>
+    <string name="stay_safe_tip_4">Use strong, different passwords for every account.</string>
+    <string name="about_title">About this app</string>
+    <string name="about_text">Cyber AI Guide is a cybersecurity awareness app for students and beginners. The Message Checker and URL Checker use simple rule-based checks on your device — they are for awareness only and cannot guarantee that a message or website is safe. Your text is never stored or sent anywhere.\n\nDeveloped by Astha Nayi</string>
+
+    <!-- ==================== MESSAGE CHECKER ==================== -->
+    <string name="message_checker_title">Message Checker</string>
+    <string name="message_checker_desc">Paste a suspicious message and check for possible scam or phishing signs.</string>
+    <string name="message_checker_hint">Paste the suspicious message here…</string>
+    <string name="button_check_message">Check Message</string>
+    <string name="error_empty_message">Please paste a message first.</string>
+
+    <!-- ==================== URL CHECKER ==================== -->
+    <string name="url_checker_title">URL Checker</string>
+    <string name="url_checker_desc">Enter or paste a website URL to check for warning signs.</string>
+    <string name="url_checker_hint">e.g. http://example.com/login</string>
+    <string name="url_checker_note">Note: the link is never opened by this app.</string>
+    <string name="button_check_url">Check URL</string>
+    <string name="error_empty_url">Please enter a URL first.</string>
+    <string name="error_invalid_url">That does not look like a website address.</string>
+
+    <!-- ==================== RISK RESULT ==================== -->
+    <string name="risk_result_title">Risk Result</string>
+    <string name="risk_label_detected">POSSIBLE RISK DETECTED</string>
+    <string name="risk_label_complete">CHECK COMPLETE</string>
+    <string name="risk_high">HIGH RISK</string>
+    <string name="risk_medium">MEDIUM RISK</string>
+    <string name="risk_low">LOW RISK</string>
+    <string name="risk_score_format">Risk score: %1$d</string>
+    <string name="why_risky_title">Why this may be risky</string>
+    <string name="no_warning_signs">No obvious warning signs were detected.</string>
+    <string name="recommended_action_title">Recommended action</string>
+    <string name="checked_text_title">What was checked</string>
+    <string name="disclaimer">This is an awareness check, not a guarantee. Scammers change their tricks often, so always use your own judgement.</string>
+    <string name="button_check_another_message">Check Another Message</string>
+    <string name="button_check_another_url">Check Another URL</string>
+
+    <!-- ==================== AI CYBER CHAT ==================== -->
+    <string name="chat_title">AI Cyber Chat</string>
+    <string name="chat_hint">Ask a cyber safety question…</string>
+    <string name="chat_send">Send</string>
+    <string name="chat_greeting">Hi! I\'m your Cyber AI Guide. Ask me anything about online safety — for example: \"What is phishing?\" or \"How can I protect my Instagram account?\"</string>
+    <string name="chat_demo_notice">Currently in demo mode: my answers come from a built-in offline knowledge base. A real AI API can be connected later without changing the app code.</string>
+
+    <!-- ==================== CYBER SAFETY GUIDE ==================== -->
+    <string name="guide_title">Cyber Safety Guide</string>
+    <string name="guide_desc">Ten simple lessons to help you stay safe online. Reading them all only takes a few minutes.</string>
+    <string name="guide_tip_label">Tip: %1$s</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Cyber AI Guide color palette -->
+    <color name="primary">#0D47A1</color>
+    <color name="secondary">#1565C0</color>
+    <color name="accent">#00ACC1</color>
+    <color name="app_background">#F5F7FA</color>
+    <color name="app_background_dark">#121820</color>
+    <color name="danger">#D32F2F</color>
+    <color name="warning">#F9A825</color>
+    <color name="success">#2E7D32</color>
+    <color name="text_secondary">#5A6572</color>
+    <color name="icon_circle_background">#E3F2FD</color>
+    <color name="chat_bubble_bot">#E8F0FE</color>
+    <color name="chat_text_dark">#1A1C1E</color>
+</resources>

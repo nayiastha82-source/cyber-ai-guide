@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- App launcher icon: white shield with a cyan check mark -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M54,26L76,35V53C76,67.5 67,77.6 54,82.5C41,77.6 32,67.5 32,53V35Z" />
+    <path
+        android:fillColor="#FF00ACC1"
+        android:pathData="M46.9,55.3L41.3,49.7L43.4,47.6L46.9,51.1L62.3,35.7L64.4,37.8L46.9,55.3Z" />
+</vector>
